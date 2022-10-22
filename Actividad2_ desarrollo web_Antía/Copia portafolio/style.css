@@ -1,0 +1,67 @@
+html{
+    font-size: 60%;
+}
+.container{
+    height: 50vh;
+    width: 20px;
+    background-color: white;
+    font-family: 'Verdana', sans-serif;
+    position: relative;
+}
+.button{
+    font-family: 'Verdana', sans-serif;
+    justify-content: end;
+    font-weight: 800;
+    font-size: 3rem;
+    margin-top: 0px;
+}
+ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 8px 20px;
+    font-weight: 300;
+    font-size: 1.5rem;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+ul li:hover{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-radius: 0px;
+    background-color: #FFDE59;
+    color: black
+}
+header{
+    position: absolute;
+    bottom: 30% ;
+    padding: 0 50px;
+}
+header h1{
+    font-size: 9rem;
+    margin-left: 400px;
+    margin-bottom: 370px;
+}
+header h2{
+    font-size: 9rem;
+    margin-left: 400px;
+    margin-bottom: 270px;
+}
+header h3{
+    font-size: 9rem;
+    margin-left: 500px;
+    margin-bottom: 150px;
+}
+.image{
+    position: absolute;
+    height: 850px;
+    width: 425px;
+    right: 72%;
+    bottom: 20%;
+    top: 0;
+    z-index: 999;
+}
+h2{
+    font-size: 2rem;
+    margin-left: 1500px;
+    margin-top: 80px;
+}
